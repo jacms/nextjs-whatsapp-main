@@ -12,6 +12,10 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
+app.get('/', (req, res) => {
+  res.send('WhatsApp API')
+})
+
 app.use('/api/auth', AuthRoutes)
 app.use('/api/message', MessageRoutes)
 
