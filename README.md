@@ -1,1 +1,7 @@
-# nextjs-whatsapp-clone-starter
+# WhatsApp Clone
+
+Next.js
+Socket.io
+Tailwind
+Node.js
+Express
