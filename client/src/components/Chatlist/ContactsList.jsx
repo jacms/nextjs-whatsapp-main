@@ -7,7 +7,7 @@ import { BiArrowBack, BiSearchAlt2 } from 'react-icons/bi'
 import ChatLIstItem from './ChatLIstItem'
 
 const ContactsList = () => {
-  const [{}, dispatch] = useStateProvider()
+  const [dispatch] = useStateProvider()
   const [allContacts, setAllContacts] = useState([])
   useEffect(() => {
     try {

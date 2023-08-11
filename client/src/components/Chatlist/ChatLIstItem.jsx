@@ -3,7 +3,7 @@ import Avatar from '../common/Avatar'
 import { reducerCases } from '@/context/constants'
 
 const ChatLIstItem = ({ data, isContactPage = false }) => {
-  const [{ userInfo, currentChatUser }, dispatch] = useStateProvider()
+  const [dispatch] = useStateProvider()
 
   const handleContactClick = () => {
     // if (currentChatUser?.id === data?.id) {
